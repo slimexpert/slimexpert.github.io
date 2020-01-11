@@ -1,0 +1,76 @@
+/*---------------------------------------------------------
+# BT Beauty - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=beauty
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+
+/* --- Default Style --- */
+.moduletable { }
+.moduletable h3 { }
+.moduletable h3 span.title_arrow { }
+.moduletable h3 span.first-word { }
+.moduletable h3.bt { }
+.moduletable h3.bt span.title_arrow { }
+.moduletable h3.bt span.first-word { }
+.moduletable div.module_content { }
+.moduletable div.module_content div { }
+
+/* --- list styles --- */
+.moduletable div.module_content ul { }
+.moduletable div.module_content ul li { }
+
+/* --- headings --- */
+.moduletable div.module_content h1, .moduletable div.module_content h2, .moduletable div.module_content h3, .moduletable div.module_content h4, .moduletable div.module_content h5, .moduletable div.module_content h6 { }
+
+/* --- form --- */
+.moduletable div.module_content input[type="text"], .moduletable div.module_content input[type="password"], .moduletable div.module_content input[type="email"] { }
+.moduletable div.module_content input[type="text"]:hover, .moduletable div.module_content input[type="text"]:focus, .moduletable div.module_content input[type="password"]:hover, .moduletable div.module_content input[type="password"]:focus, .moduletable div.module_content input[type="email"]:hover, .moduletable div.module_content input[type="email"]:focus { }
+.moduletable div.module_content textarea { }
+.moduletable div.module_content textarea:hover, .moduletable div.module_content textarea:focus { }
+.moduletable div.module_content button, .moduletable div.module_content input.button, .moduletable div.module_content .button, .moduletable div.module_content input[type="submit"], .moduletable div.module_content input[type="button"], .moduletable div.module_content input[type="reset"] { }
+.moduletable div.module_content button:hover, .moduletable div.module_content input.button:hover, .moduletable div.module_content .button:hover, .moduletable div.module_content input[type="submit"]:hover, .moduletable div.module_content input[type="button"]:hover, .moduletable div.module_content input[type="reset"]:hover { }
+.moduletable div.module_content button:active, .moduletable div.module_content input.button:active, .moduletable div.module_content .button:active, .moduletable div.module_content input[type="submit"]:active, .moduletable div.module_content input[type="button"]:active, .moduletable div.module_content input[type="reset"]:active { }
+
+/* --- links --- */
+.moduletable div.module_content a:link, .moduletable div.module_content a:active, .moduletable div.module_content a:visited { }
+.moduletable div.module_content a:hover, .moduletable div.module_content a:focus { }
+
+/* --- Style1 (_btmstyle1) --- */
+.moduletable_btmstyle1 { }
+.moduletable_btmstyle1 div.icon_a { }
+.moduletable_btmstyle1 div.icon_b { }
+.moduletable_btmstyle1 h3 { }
+.moduletable_btmstyle1 h3 span.btmstyle { }
+.moduletable_btmstyle1 h3 span.title_arrow { }
+.moduletable_btmstyle1 h3 span.first-word { }
+.moduletable_btmstyle1 h3.bt { }
+.moduletable_btmstyle1 h3.bt span.btmstyle { }
+.moduletable_btmstyle1 h3.bt span.title_arrow { }
+.moduletable_btmstyle1 h3.bt span.first-word { }
+.moduletable_btmstyle1 div.module_content { }
+.moduletable_btmstyle1 div.module_content div { }
+
+/* --- list styles --- */
+.moduletable_btmstyle1 div.module_content ul { }
+.moduletable_btmstyle1 div.module_content ul li { }
+
+/* --- headings --- */
+.moduletable_btmstyle1 div.module_content h1, .moduletable_btmstyle1 div.module_content h2, .moduletable_btmstyle1 div.module_content h3, .moduletable_btmstyle1 div.module_content h4, .moduletable_btmstyle1 div.module_content h5, .moduletable_btmstyle1 div.module_content h6 { }
+
+/* --- form --- */
+.moduletable_btmstyle1 div.module_content input[type="text"], .moduletable_btmstyle1 div.module_content input[type="password"], .moduletable_btmstyle1 div.module_content input[type="email"] { }
+.moduletable_btmstyle1 div.module_content input[type="text"]:hover, .moduletable_btmstyle1 div.module_content input[type="text"]:focus, .moduletable_btmstyle1 div.module_content input[type="password"]:hover, .moduletable_btmstyle1 div.module_content input[type="password"]:focus, .moduletable_btmstyle1 div.module_content input[type="email"]:hover, .moduletable_btmstyle1 div.module_content input[type="email"]:focus { }
+.moduletable_btmstyle1 div.module_content textarea { }
+.moduletable_btmstyle1 div.module_content textarea:hover, .moduletable_btmstyle1 div.module_content textarea:focus { }
+.moduletable_btmstyle1 div.module_content button, .moduletable_btmstyle1 div.module_content input.button, .moduletable_btmstyle1 div.module_content .button, .moduletable_btmstyle1 div.module_content input[type="submit"], .moduletable_btmstyle1 div.module_content input[type="button"], .moduletable_btmstyle1 div.module_content input[type="reset"] { }
+.moduletable_btmstyle1 div.module_content button:hover, .moduletable_btmstyle1 div.module_content input.button:hover, .moduletable_btmstyle1 div.module_content .button:hover, .moduletable_btmstyle1 div.module_content input[type="submit"]:hover, .moduletable_btmstyle1 div.module_content input[type="button"]:hover, .moduletable_btmstyle1 div.module_content input[type="reset"]:hover { }
+.moduletable_btmstyle1 div.module_content button:active, .moduletable_btmstyle1 div.module_content input.button:active, .moduletable_btmstyle1 div.module_content .button:active, .moduletable_btmstyle1 div.module_content input[type="submit"]:active, .moduletable_btmstyle1 div.module_content input[type="button"]:active, .moduletable_btmstyle1 div.module_content input[type="reset"]:active { }
+
+/* --- links --- */
+.moduletable_btmstyle1 div.module_content a:link, .moduletable_btmstyle1 div.module_content a:active, .moduletable_btmstyle1 div.module_content a:visited { }
+.moduletable_btmstyle1 div.module_content a:hover, .moduletable_btmstyle1 div.module_content a:focus { }

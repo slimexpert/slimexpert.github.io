@@ -1,0 +1,158 @@
+/*---------------------------------------------------------
+# BT Beauty - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=beauty
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+
+/* ---------- Sliders & jQuery Effects ---------- */
+
+/* ---------- Scrollable Slider (based on: http://jquerytools.org/demos/scrollable/index.html) ---------- */
+.bt_scrollable_slider_outer table { }
+.bt_scrollable_slider_outer table tr, .bt_scrollable_slider_outer table td { 
+     vertical-align: middle;
+     border-style: none none none none!important;
+}
+.bt_scrollable_slider_outer .clearfix { 
+     clear: both;
+}
+/* prev, next, prevPage and nextPage buttons */ { }
+.bt_scrollable_slider_outer a.bt_browse { 
+     font-size: 1px;
+     cursor: pointer;
+     background-repeat: no-repeat;
+     width: 24px;
+     height: 47px;
+     display: block;
+     float: left;
+     margin: 0px 15px 0px 15px;
+}
+
+/* --- right --- */
+.bt_scrollable_slider_outer a.bt_right { 
+     background-position: 0 -48px;
+     margin-right: 0px;
+     clear: right;
+}
+.bt_scrollable_slider_outer a.bt_right:hover { 
+     background-position: -24px -48px;
+}
+.bt_scrollable_slider_outer a.bt_right:active { 
+     background-position: -48px -48px;
+}
+
+/* --- left --- */
+.bt_scrollable_slider_outer a.bt_left { 
+     margin-left: 0px;
+}
+.bt_scrollable_slider_outer a.bt_left:hover { 
+     background-position: -24px 0;
+}
+.bt_scrollable_slider_outer a.bt_left:active { 
+     background-position: -48px 0;
+}
+
+/* --- disabled navigational button --- */
+.bt_scrollable_slider_outer a.disabled { }
+
+/* --- scrollable --- */
+.bt_scrollable_slider_outer .scrollable { 
+     float: left;
+     overflow: hidden;
+     position: relative;
+}
+.bt_scrollable_slider_outer .scrollable .bt_items { 
+     width: 20000em;
+     clear: both;
+     position: absolute;
+}
+.bt_scrollable_slider_outer .scrollable .bt_items div { 
+     float: left;
+}
+.bt_scrollable_slider_outer .scrollable .bt_items div.bt_item_image { 
+     float: none !important;
+}
+.bt_scrollable_slider_outer .scrollable .bt_item { 
+     border-right-style: none !important;
+     margin-right: 5px;
+     padding-right: 5px;
+     float: left;
+}
+.bt_scrollable_slider_outer .scrollable .bt_item_inner { 
+     padding: 0px 0px 0px 0px;
+}
+.bt_scrollable_slider_outer .scrollable .bt_item_image { 
+     float: none;
+     margin: 0px auto 0px auto;
+}
+.bt_scrollable_slider_outer .scrollable .bt_item_image img { 
+     float: left;
+}
+
+/* -------- Sliding background image menu with jQuery (based on http://tympanus.net/codrops/2011/07/03/sliding-background-image-menu/) -------- */
+.bt_sbi_container { 
+     overflow: hidden;
+     position: relative;
+     margin: 0px auto 0px auto;
+}
+.bt_sbi_panel { 
+     height: 100%;
+     float: left;
+     overflow: hidden;
+     position: relative;
+}
+.bt_sbi_panel_img { 
+     background-repeat: no-repeat;
+     height: 100%;
+     position: absolute;
+     top: 0px;
+}
+.bt_sbi_label { 
+     font-size: 20px;
+     text-align: center;
+     text-shadow: 0px 0px 1px #000;
+     text-decoration: none;
+     outline: none;
+     line-height: 40px;
+     cursor: pointer;
+     opacity: 0.3;
+     width: 100%;
+     height: 40px;
+     display: block;
+     position: absolute;
+     bottom: 50px;
+     left: 0px;
+}
+.bt_sbi_label:hover { 
+     opacity: 0.9;
+}
+.bt_sbi_content { 
+     background-position: top left;
+     background-repeat: repeat;
+     border-top-width: 2px;
+     border-top-style: solid;
+     width: 100%;
+     display: none;
+     overflow: hidden;
+     position: absolute;
+     bottom: 90px;
+     left: 0px;
+}
+.bt_sbi_content p { 
+     height: 100px;
+     margin: 10px 10px 10px 10px;
+}
+.bt_sbi_content ul { 
+     padding: 10px 10px 10px 10px;
+}
+.bt_sbi_content ul a { 
+     font-size: 16px;
+     opacity: 0.9;
+     display: block;
+     padding: 1px 4px 1px 4px;
+}
+.bt_sbi_content ul a:hover { }

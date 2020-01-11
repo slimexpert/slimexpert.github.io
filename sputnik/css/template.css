@@ -1,0 +1,442 @@
+/*---------------------------------------------------------
+# BT Beauty - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 3.0
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=beauty
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+
+/* ---------- Default, Background ---------- */
+
+/* --- Background --- */
+* { 
+     font-size: 100.01%;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+* html body { 
+     height: 100%;
+}
+html { }
+body { 
+     font-size: 14px;
+     font-family: Lato, sans-serif;
+     line-height: 24px;
+     background-position: center top;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 100%;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+.clearfix { 
+     display: block;
+     clear: both;
+}
+* html .clearfix { 
+     height: 1%;
+}
+
+/* --- offline page --- */
+.bt_offline_image { 
+     background-position: top center;
+     background-repeat: no-repeat;
+     width: 704px;
+     height: 353px;
+     margin: 40px auto 40px auto;
+}
+
+/* --- logo --- */
+div.bt_fade_logo.bt_fade_img { 
+     background-position: left top;
+     background-repeat: no-repeat;
+     width: 159px;
+     height: 38px;
+     position: relative;
+}
+div.bt_fade_logo.bt_fade_img a { 
+     background-position: left bottom;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 0px;
+}
+
+/* --- Popup Login (based on: http://www.queness.com/post/77/simple-jquery-modal-window-tutorial) --- */
+#bt_popup .bt_popup_links { }
+#bt_popup .bt_popup_links p { 
+     margin-bottom: 0px;
+}
+#bt_popup .bt_popup_links span { }
+#bt_popup .bt_login_form a:link, #bt_popup .bt_login_form a:active, #bt_popup .bt_login_form a:visited { }
+#bt_popup .bt_login_form a:hover, #bt_popup .bt_login_form a:focus { }
+#bt_popup .bt_login_form ul li { }
+#bt_popup .bt_popup_links a { }
+#bt_popup .bt_popup_links a:hover { }
+#bt_popup .bt_login_sign_in, #bt_popup .bt_login_logout { }
+#bt_popup .bt_login_sign_in:hover, #bt_popup .bt_login_logout:hover { }
+#bt_popup .bt_login_register { }
+
+/* --- mod_search --- */
+div.module_content div.search { }
+div.module_content div.search.style2 { }
+div.module_content label[for="mod-search-searchword"] { 
+     display: none;
+}
+div.module_content input#mod-search-searchword { 
+     background-position: 10px center;
+     background-repeat: no-repeat;
+     border-top-left-radius: 15px;
+     -webkit-border-top-left-radius: 15px;
+     -moz-border-radius-topleft: 15px;
+     border-top-right-radius: 15px;
+     -webkit-border-top-right-radius: 15px;
+     -moz-border-radius-topright: 15px;
+     border-bottom-right-radius: 15px;
+     -webkit-border-bottom-right-radius: 15px;
+     -moz-border-radius-bottomright: 15px;
+     border-bottom-left-radius: 15px;
+     -webkit-border-bottom-left-radius: 15px;
+     -moz-border-radius-bottomleft: 15px;
+     width: 150px;
+     height: 20px;
+     border-style: solid solid solid solid;
+     border-width: 1px 1px 1px 1px;
+     margin: 20px 25px 22px 0px;
+     padding: 5px 10px 5px 35px;
+}
+div.module_content input#mod-search-searchword:hover { }
+div.module_content input#mod-finder-searchword { }
+div.module_content input#mod-finder-searchword:hover { }
+
+/* --- mod_breadcrumbs --- */
+.bt_sub_pathway { }
+.bt_sub_pathway .breadcrumbs { }
+.bt_sub_pathway .bt_breadcrumbs_img { 
+     background-position: left center;
+     background-repeat: no-repeat;
+     width: 17px;
+     height: 15px;
+     float: left;
+     margin: 4px 10px 0px 0px;
+}
+.bt_sub_pathway .bt_breadcrumbs_img a { }
+.bt_sub_pathway span.showHere { 
+     display: none;
+}
+.bt_sub_pathway img { 
+     margin: 9px 4px 7px 4px;
+}
+.bt_sub_pathway a, .bt_sub_pathway span { 
+     font-size: 15px;
+}
+.bt_sub_pathway a { 
+     font-weight: 700 !important;
+}
+
+/* --- Social Icons --- */
+.bt_social_icons { 
+     text-align: left;
+}
+.bt_social_icon { 
+     width: 27px;
+     height: 27px;
+     display: inline-block;
+     margin: 6px 0px 0px 3px;
+}
+.bt_social_icon_bg { 
+     background-position: left top;
+}
+.bt_social_icon_bg:hover { 
+     background-position: left -27px;
+}
+#social_icon_facebook { }
+#social_icon_email { }
+#social_icon_rss { }
+#social_icon_twitter { }
+#social_icon_google { }
+
+/* --- Go Top (based on http://briancray.com/2009/10/06/scroll-to-top-link-jquery-css) --- */
+.bt_go_top_button_img a { 
+     width: 42px;
+     height: 37px;
+}
+.bt_go_top_button_img a:hover { 
+     background-position: 0 -37px;
+}
+#bt_gotop_message a { 
+     margin-top: -170px;
+     margin-left: -20px;
+     display: none;
+     z-index: 999;
+     position: fixed;
+     top: 100%;
+     left: 95%;
+}
+
+/* --- Powered by BonusThemes.com (small logo) --- */
+div.bt_powered_by_logo.bt_fade_img { 
+     background-position: left top;
+     background-repeat: no-repeat;
+     width: 27px;
+     height: 20px;
+     position: relative;
+}
+div.bt_powered_by_logo.bt_fade_img a { 
+     background-position: left bottom;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     bottom: 0px;
+     left: 0px;
+}
+
+/* -------- Hover Effects with CSS3 (based on http://tympanus.net/codrops/2011/11/02/original-hover-effects-with-css3/) -------- */
+.bt_hover_view { 
+     text-align: center;
+     cursor: default;
+     background-position: center center;
+     background-repeat: no-repeat;
+     width: 300px;
+     height: 200px;
+     float: left;
+     overflow: hidden;
+     position: relative;
+     margin: 10px 10px 10px 10px;
+}
+.bt_hover_view .hover_mask,.bt_hover_view .content { 
+     width: 300px;
+     height: 200px;
+     overflow: hidden;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+}
+.bt_hover_view img { 
+     display: block;
+     position: relative;
+}
+.bt_hover_view h2 { 
+     font-size: 17px;
+     text-align: center;
+     text-transform: uppercase;
+     position: relative;
+     margin: 5px 0px 0px 0px;
+     padding: 10px 10px 10px 10px;
+}
+.bt_hover_view p { 
+     font-size: 12px;
+     font-style: italic;
+     text-align: center;
+     position: relative;
+     padding: 5px 20px 20px 20px;
+}
+.bt_hover_view-tenth img { 
+     transition: all 0.7s ease-in-out;
+     -webkit-transition: all 0.7s ease-in-out;
+     -moz-transition: all 0.7s ease-in-out;
+     -o-transition: all 0.7s ease-in-out;
+     -ms-transition: all 0.7s ease-in-out;
+     transform: scaleY(1);
+     -webkit-transform: scaleY(1);
+     -moz-transform: scaleY(1);
+     -o-transform: scaleY(1);
+     -ms-transform: scaleY(1);
+}
+.bt_hover_view-tenth .hover_mask { 
+     transition: all 0.5s linear;
+     -webkit-transition: all 0.5s linear;
+     -moz-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     opacity: 0.0;
+}
+.bt_hover_view-tenth h2 { 
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
+     transition: all 0.5s linear;
+     -webkit-transition: all 0.5s linear;
+     -moz-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     transform: scale(0);
+     -webkit-transform: scale(0);
+     -moz-transform: scale(0);
+     -o-transform: scale(0);
+     -ms-transform: scale(0);
+     opacity: 0.0;
+     margin: 10px 40px 0px 40px;
+}
+.bt_hover_view-tenth p { 
+     transition: all 0.5s linear;
+     -webkit-transition: all 0.5s linear;
+     -moz-transition: all 0.5s linear;
+     -o-transition: all 0.5s linear;
+     -ms-transition: all 0.5s linear;
+     transform: scale(0);
+     -webkit-transform: scale(0);
+     -moz-transform: scale(0);
+     -o-transform: scale(0);
+     -ms-transform: scale(0);
+     opacity: 0.0;
+}
+.bt_hover_view-tenth:hover img { 
+     transform: scale(10);
+     -webkit-transform: scale(10);
+     -moz-transform: scale(10);
+     -o-transform: scale(10);
+     -ms-transform: scale(10);
+     opacity: 0.0;
+}
+.bt_hover_view-tenth:hover .hover_mask { 
+     opacity: 1;
+}
+.bt_hover_view-tenth:hover h2,.bt_hover_view-tenth:hover p,.bt_hover_view-tenth:hover a.info { 
+     transform: scale(1);
+     -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     -ms-transform: scale(1);
+     opacity: 1;
+}
+
+/* -------- Animated content tabs with CSS3 (based on http://tympanus.net/codrops/2012/04/12/animated-content-tabs-with-css3/) -------- */
+.bt_tabs { 
+     position: relative;
+     margin: 20px auto 20px auto;
+}
+.bt_tabs input { 
+     cursor: pointer;
+     opacity: 0.0;
+     width: 202px;
+     height: 40px;
+     z-index: 1000;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+}
+.bt_tabs input#tab-2 { 
+     left: 202px;
+}
+.bt_tabs input#tab-3 { 
+     left: 404px;
+}
+.bt_tabs input#tab-4 { 
+     left: 602px;
+}
+.bt_tabs label { 
+     font-size: 16px;
+     text-align: center;
+     line-height: 35px;
+     border-top-left-radius: 10px;
+     -webkit-border-top-left-radius: 10px;
+     -moz-border-radius-topleft: 10px;
+     border-top-right-radius: 10px;
+     -webkit-border-top-right-radius: 10px;
+     -moz-border-radius-topright: 10px;
+     border-bottom-right-radius: 10px;
+     -webkit-border-bottom-right-radius: 10px;
+     -moz-border-radius-bottomright: 10px;
+     border-bottom-left-radius: 10px;
+     -webkit-border-bottom-left-radius: 10px;
+     -moz-border-radius-bottomleft: 10px;
+     width: 150px;
+     height: 35px;
+     display: block;
+     float: left;
+     position: relative;
+     border-style: solid solid solid solid;
+     border-width: 3px 3px 3px 3px;
+     margin: 0px 5px 0px 5px;
+     padding: 0px 20px 0px 20px;
+}
+.bt_tabs label:after { 
+     font-weight: bold;
+     width: 100%;
+     height: 2px;
+     display: block;
+     position: absolute;
+     bottom: -2px;
+     left: 0px;
+}
+.bt_tabs input:hover + label { }
+.bt_tabs label:first-of-type { 
+     z-index: 4;
+}
+.tab-label-2 { 
+     z-index: 3;
+}
+.tab-label-3 { 
+     z-index: 2;
+}
+.tab-label-4 { 
+     z-index: 1;
+}
+.bt_tabs input:checked + label { 
+     animation: page 0.2s linear;
+     -webkit-animation: page 0.2s linear;
+     -moz-animation: page 0.2s linear;
+     -o-animation: page 0.2s linear;
+     -ms-animation: page 0.2s linear;
+     z-index: 6;
+}
+.bt_clear-shadow { 
+     clear: both;
+}
+.bt_content_tabs { 
+     width: 100%;
+     height: 700px;
+     overflow: hidden;
+     z-index: 5;
+     position: relative;
+}
+.bt_content_tabs div { 
+     transition: all linear 0.3s;
+     -webkit-transition: all linear 0.3s;
+     -moz-transition: all linear 0.3s;
+     -o-transition: all linear 0.3s;
+     -ms-transition: all linear 0.3s;
+     opacity: 0.0;
+     z-index: 1;
+     position: absolute;
+     top: 0px;
+     padding: 15px 10px 10px 10px;
+}
+.bt_content_tabs-1, .bt_content_tabs-3 { 
+     transform: translateX(-250px);
+     -webkit-transform: translateX(-250px);
+     -moz-transform: translateX(-250px);
+     -o-transform: translateX(-250px);
+     -ms-transform: translateX(-250px);
+}
+.bt_content_tabs-2, .bt_content_tabs-4 { 
+     transform: translateX(250px);
+     -webkit-transform: translateX(250px);
+     -moz-transform: translateX(250px);
+     -o-transform: translateX(250px);
+     -ms-transform: translateX(250px);
+}
+.bt_tabs input.tab-selector-1:checked ~ .bt_content_tabs .bt_content_tabs-1, .bt_tabs input.tab-selector-2:checked ~ .bt_content_tabs .bt_content_tabs-2, .bt_tabs input.tab-selector-3:checked ~ .bt_content_tabs .bt_content_tabs-3, .bt_tabs input.tab-selector-4:checked ~ .bt_content_tabs .bt_content_tabs-4 { 
+     transition: all ease-out 0.2s 0.1s;
+     -webkit-transition: all ease-out 0.2s 0.1s;
+     -moz-transition: all ease-out 0.2s 0.1s;
+     -o-transition: all ease-out 0.2s 0.1s;
+     -ms-transition: all ease-out 0.2s 0.1s;
+     transform: translateX(0px);
+     -webkit-transform: translateX(0px);
+     -moz-transform: translateX(0px);
+     -o-transform: translateX(0px);
+     -ms-transform: translateX(0px);
+     opacity: 1;
+     z-index: 100;
+}
+.bt_content_tabs div p { 
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
