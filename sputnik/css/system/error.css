@@ -1,0 +1,63 @@
+/*---------------------------------------------------------
+# BT Beauty - Joomla! Template
+# ---------------------------------------------------------
+# For Joomla! 2.5
+# Copyright (C) 2007-2013 BonusThemes.com. All rights reserved.
+# License: GNU/GPLv3, http://www.gnu.org/licenses/gpl-3.0.html
+# Demo: http://www.bonusthemes.com/demo/?template=beauty
+# Website: http://www.bonusthemes.com
+# Support: support@bonusthemes.com
+----------------------------------------------------------- */
+body#bt_error { 
+     font-family: Lato, sans-serif;
+     line-height: 1.6;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+}
+#bt_error_outer { 
+     width: 980px;
+     margin: 100px auto 0px auto;
+}
+#bt_error_left_col { 
+     width: 403px;
+     float: left;
+}
+div.error_img { 
+     background-repeat: no-repeat;
+     width: 403px;
+     height: 207px;
+     margin: 20px 0px 0px 0px;
+}
+p.error_message { 
+     font-size: 22px;
+     font-weight: bold;
+     text-align: center;
+     text-transform: uppercase;
+     padding: 0px 0px 25px 0px;
+}
+#bt_error_message { 
+     font-weight: 400;
+     width: 500px;
+     float: left;
+     padding: 0px 0px 0px 30px;
+}
+#bt_error_message #bt_error_notice_text { 
+     font-weight: bold;
+     float: left;
+}
+#bt_error_message #bt_error_notice_text p { 
+     font-size: 18px;
+     line-height: 20px;
+     padding: 0px 30px 0px 30px;
+}
+#bt_error_message #bt_error_details { 
+     clear: both;
+     padding: 0px 30px 0px 30px;
+}
+#bt_error_message #bt_error_details ul li { }
+#bt_error_message #bt_error_details ul li a { }
+#bt_error_message #bt_error_info { 
+     width: 460px;
+     clear: both;
+     margin: 20px 30px 20px 30px;
+}
