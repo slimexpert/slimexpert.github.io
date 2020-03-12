@@ -164,7 +164,7 @@ dl, dt, dd, ol, ul, li {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -1159,7 +1159,7 @@ body.stretched #header.full-header .container {
 	line-height: 22px;
 	padding: 39px 15px;
 	color: #444;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	font-size: 13px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -1254,7 +1254,7 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 	padding-bottom: 10px;
 	border: 0;
 	letter-spacing: 0;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
