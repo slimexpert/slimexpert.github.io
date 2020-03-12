@@ -23,6 +23,7 @@
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
+  --warningg: #fe7745;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -2559,6 +2560,12 @@ fieldset:disabled a.btn {
   color: #212529;
   background-color: #ffc107;
   border-color: #ffc107;
+}
+
+.btn-warningg {
+  color: #212529;
+  background-color: #fe7745;
+  border-color: #fe7745;
 }
 
 .btn-warning:hover {
