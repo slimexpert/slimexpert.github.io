@@ -38,14 +38,12 @@ function init() {
             // Содержимое балуна.
             balloonContent: "Рыбные места"
         }, {
-            // Описываем опции геообъекта.
-            // Фоновое изображение.
-            fillImageHref: 'images/lake.png',
-            // Тип заливки фоном.
-            fillMethod: 'stretch',
-            // Убираем видимость обводки.
-            stroke: false
-        }
+				fillColor: '#6699ff',
+				// Делаем полигон прозрачным для событий карты.
+				interactivityModel: 'default#transparent',
+				strokeWidth: 8,
+				opacity: 0.5
+			}
     );
 
     // Добавляем многоугольник на карту.
