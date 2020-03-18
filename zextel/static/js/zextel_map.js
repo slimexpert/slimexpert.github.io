@@ -44,7 +44,7 @@ function init() {
         }, {
 				fillColor: '#32CD32',
 				// Делаем полигон прозрачным для событий карты.
-				interactivityModel: 'default#transparent',
+				//interactivityModel: 'default#transparent',
 				strokeWidth: 8,
 				opacity: 0.4
 			}
