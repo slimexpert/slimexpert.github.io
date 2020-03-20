@@ -6,9 +6,9 @@
       "id": 0,
       "options": {
         "description": "Зона охвата сети Zextel",
-        "fill": "#ff931e",
+        "fillColor": "#ff931e",
         "fill-opacity": 0.2,
-        "stroke": "#ff931e",
+        "strokeColor": "#ff931e",
         "stroke-width": "1",
         "stroke-opacity": 0.9
       },
