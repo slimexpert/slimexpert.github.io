@@ -10,7 +10,7 @@ ymaps.ready(function () {
     map.controls.get('zoomControl').options.set({size: 'small'});
 
     // Загружаем GeoJSON файл, экспортированный из Конструктора карт.
-    $.getJSON('https://slimexpert.github.io/zextel/static/js/main.geojson')
+    $.getJSON('https://slimexpert.github.io/zextel/static/js/main1.geojson')
     	.done(function (geoJson) 
     	{
            // Добавляем описание объектов в формате JSON в менеджер объектов.
