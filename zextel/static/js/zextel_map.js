@@ -1,5 +1,6 @@
-ymaps.ready(function () {
 
+ymaps.ready(init); 
+function init(){
     var map = new ymaps.Map('map', {
             center: [60.020251, 30.650962],
             zoom: 10,
@@ -18,4 +19,4 @@ ymaps.ready(function () {
             // Добавляем объекты на карту.
         	map.geoObjects.add(objectManager);
         });
-});
+};
