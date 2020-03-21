@@ -1,4 +1,3 @@
-
 ymaps.ready(init); 
 function init(){
     var map = new ymaps.Map('map', {
