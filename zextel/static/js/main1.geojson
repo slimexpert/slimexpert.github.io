@@ -7,7 +7,7 @@
       "options": {
         "description": "Зона охвата сети Zextel",
         "fillColor": "#ff931e",
-        "fill-opacity": 0.5,
+        "fill-opacity": 0.9,
         "strokeColor": "#ff931e",
         "stroke-width": "1",
         "stroke-opacity": 0.9
