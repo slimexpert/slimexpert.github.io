@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "options": {
+        "description": "Зона охвата сети Zextel",
+        "fillColor": "#ff931e",
+        "fillOpacity": 0.3,
+        "strokeColor": "#ff931e",
+        "strokeWidth": "1",
+        "strokeOpacity": 0.9
+      },
+      "properties": {
+        "balloonContent": "Зона охвата сети Zextel",
+        "hintContent": "Зона охвата сети Zextel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3414332.481031491,
+              8408640.972629815
+            ],
+            [
+              3415364.3809133405,
+              8409290.687370239
+            ],
+            [
+              3415947.2132540145,
+              8409500.889198024
+            ],
+            [
+              3415383.4901704118,
+              8410255.704852339
+            ],
+            [
+              3415020.414286057,
+              8410246.150223803
+            ],
+            [
+              3414332.481031491,
+              8408640.972629815
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
