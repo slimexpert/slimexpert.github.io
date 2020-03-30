@@ -505,9 +505,9 @@
          "id":0,
          "options":{
             "description":"Зона охвата сети Zextel",
-            "fillColor":"#ff931e",
+            "fillColor":"#ed4543",
             "fillOpacity":0.5,
-            "strokeColor":"#ff931e",
+            "strokeColor":"#ed4543",
             "strokeWidth":"1",
             "strokeOpacity":0.9
          },
