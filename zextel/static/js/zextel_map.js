@@ -18,4 +18,13 @@ function init(){
             // Добавляем объекты на карту.
         	map.geoObjects.add(objectManager);
         });
+    // Загружаем GeoJSON файл, экспортированный из Конструктора карт.
+    $.getJSON('https://slimexpert.github.io/zextel/static/js/sheglovo.geojson')
+        .done(function (geoJson) 
+        {
+           // Добавляем описание объектов в формате JSON в менеджер объектов.
+            objectManager.add(geoJson);
+            // Добавляем объекты на карту.
+            map.geoObjects.add(objectManager);
+        });
 };
