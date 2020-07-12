@@ -1061,7 +1061,7 @@
       },
       {
          "type":"Feature",
-         "id":1,
+         "id":2,
          "options":{
             "description":"Зона охвата сети Zextel",
             "fillColor":"#b51eff",
@@ -1504,12 +1504,12 @@
       },
       {
          "type":"Feature",
-         "id":1,
+         "id":3,
          "options":{
             "description":"Зона охвата сети Zextel",
-            "fillColor":"#b51eff",
+            "fillColor":"#97a100",
             "fillOpacity":0.5,
-            "strokeColor":"#b51eff",
+            "strokeColor":"#97a100",
             "strokeWidth":"1",
             "strokeOpacity":0.9
          },
